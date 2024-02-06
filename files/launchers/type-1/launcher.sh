@@ -16,5 +16,6 @@ theme='style-5'
 
 ## Run
 rofi \
+    -matching fuzzy \
     -show drun \
     -theme ${dir}/${theme}.rasi
